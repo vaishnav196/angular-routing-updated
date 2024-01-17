@@ -1,0 +1,16 @@
+<div class="container">
+
+
+    <app-header></app-header>
+
+<p> <a routerLink="admin/adminLogin">Admin Login</a></p>
+<p> <a routerLink="admin/adminList">Admin List</a></p>
+    <router-outlet></router-outlet>
+
+    <div class="overlay"*ngIf="showloader">
+<div class="loader">
+
+</div>
+    </div>
+
+</div>
